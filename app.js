@@ -3,13 +3,13 @@ var app = express();
 
 app.get('/', function(req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "Welcome to Emmanuel Lim's RESTful Web Services!"
   });
 });
 
 app.post('/', function(req, res) {
   res.send({
-    "Output": "Hello World!"
+    "Output": "Welcome to Emmanuel Lim's RESTful Web Services!"
   });
 });
 
